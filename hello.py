@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Assuming you have configured your API key
-client = genai.Client(api_key="AIzaSyDr3l49vN-nf1thbvYJj_0_CLKpcRX2Yw0")
+client = genai.Client(api_key="apikey")
 
 systemPrompt = '''
     role: you are a chatbot with the understanding of human physiology and behaviour, based on this you have to analyze and lay down the though process of what a human might be going through based on their prompt.
